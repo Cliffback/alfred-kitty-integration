@@ -9,7 +9,7 @@ Opening a new window can be done by typing "-n" before the command
 
 First, copy [macos-launch-services-cmdline](macos-launch-services-cmdline) into your kitty config folder (~/.config/kitty/) or use the following command: 
 ```bash
-mkdir -p ~/.config/kitty && echo "--listen-on unix:/tmp/kittynyx.sock" > ~/.config/kitty/macos-launch-services-cmdline
+mkdir -p ~/.config/kitty && echo "--listen-on unix:/tmp/mykitty" > ~/.config/kitty/macos-launch-services-cmdline
 ```
 
 Then in the Alfred Settings, under General > Terminal, change the Application dropdown to "Custom" and paste in the content of [alfred-kitty-integration.applescript](alfred-kitty-integration.applescript) and you should be good to go
