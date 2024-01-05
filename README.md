@@ -1,4 +1,4 @@
-# alfred-kitty
+# Custom Kitty integration for Alfred 5
 Script to use kitty as the custom terminal with Alfred
 
 My modified script is based on pyrhos guide
