@@ -1,7 +1,7 @@
 # Custom Kitty integration for Alfred 5
 Script to use kitty as the custom terminal with Alfred, with some custom behavior
 
-My modified script is based on pyrhos guide
+My modified script is based on pyrhos' guide
 [Using Kitty as a custom terminal for Alfred](https://25.wf/posts/2020-03-23-alfred-kitty.html)
 
 The difference is that with my script, the default behavior is to execute the command into the current window, instead of opening a new window.
