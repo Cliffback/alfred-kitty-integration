@@ -15,3 +15,8 @@ mkdir -p ~/.config/kitty && echo "--listen-on unix:/tmp/mykitty" > ~/.config/kit
 ```
 
 Then in the Alfred Settings, under General > Terminal, change the Application dropdown to "Custom" and paste in the content of [alfred-kitty-integration.applescript](alfred-kitty-integration.applescript) and you should be good to go
+
+You will also need to install `jq` if you don't already have it:
+```bash
+brew install jq
+```
