@@ -14,7 +14,7 @@ First, copy [macos-launch-services-cmdline](macos-launch-services-cmdline) into 
 mkdir -p ~/.config/kitty && echo "--listen-on unix:/tmp/mykitty" > ~/.config/kitty/macos-launch-services-cmdline
 ```
 
-Then in the Alfred Settings, under General > Terminal, change the Application dropdown to "Custom" and paste in the content of [alfred-kitty-integration.applescript](alfred-kitty-integration.applescript) and you should be good to go
+Then in the Alfred Settings, under Features > Terminal, change the Application dropdown to "Custom" and paste in the content of [alfred-kitty-integration.applescript](alfred-kitty-integration.applescript) and you should be good to go
 
 You will also need to install `jq` if you don't already have it:
 ```bash
